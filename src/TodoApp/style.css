@@ -1,0 +1,80 @@
+.todo-app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.todo-app h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.todo-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.todo-input::placeholder {
+  color: #999;
+}
+
+.todo-button {
+  padding: 8px 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.todo-button.add {
+  background-color: #007bff;
+}
+
+.todo-button.update {
+  background-color: #28a745;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #ddd;
+}
+
+.todo-text {
+  flex: 1;
+  font-size: 14px;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button {
+  cursor: pointer;
+  color: #007bff;
+}
+
+.delete-button {
+  cursor: pointer;
+  color: #dc3545;
+}
