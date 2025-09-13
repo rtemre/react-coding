@@ -1,5 +1,6 @@
 import "./App.css";
 import Dialog from "./Dialog";
+import Theme from "./Theme";
 import TodoApp from "./TodoApp";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <>
       <h1>React Coding Questions</h1>
       {/* <TodoApp /> */}
-      <Dialog />
+      {/* <Dialog /> */}
+      <Theme />
     </>
   );
 }
