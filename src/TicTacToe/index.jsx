@@ -17,7 +17,7 @@ function TicTacToe() {
   const [isNext, setIsNext] = useState(true);
 
   function handleClick(index) {
-    if (calaulateWinner(board)) {
+    if (calculateWinner(board)) {
       return;
     }
     const updated = [...board];
@@ -26,7 +26,7 @@ function TicTacToe() {
     setIsNext(!isNext);
   }
 
-  function calaulateWinner(currentBoard) {
+  function calculateWinner(currentBoard) {
     let result = null;
     for (let i = 0; i < WINNER_PATTERN.length; i++) {
       const [a, b, c] = WINNER_PATTERN[i];
@@ -37,15 +37,15 @@ function TicTacToe() {
       ) {
         result = currentBoard[a];
       }
-      // else {
-      //   result = "Draw";
-      // }
+    }
+    if (result === null && currentBoard.every((cell) => cell !== null)) {
+      result = "Draw";
     }
     return result;
   }
 
   function getGameStatus() {
-    const winner = calaulateWinner(board);
+    const winner = calculateWinner(board);
     if (winner === "X" || winner === "O") {
       return `Player ${winner} Wins!`;
     } else if (winner === "Draw") {
