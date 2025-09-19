@@ -2,9 +2,22 @@
   display: grid;
   grid-template-columns: 100px 100px 100px;
   grid-template-rows: 100px 100px 100px;
+  justify-content: center;
 }
 
 .box {
   background-color: bisque;
   border: 1px solid black;
+  padding: 20px;
+  font-size: 40px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+.reset {
+  margin-top: 20px;
 }
