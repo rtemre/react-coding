@@ -1,5 +1,6 @@
 import "./App.css";
 import Dialog from "./Dialog";
+import StopWatch from "./StopWatch";
 import Theme from "./Theme";
 import TicTacToe from "./TicTacToe";
 import TodoApp from "./TodoApp";
@@ -11,7 +12,8 @@ function App() {
       {/* <TodoApp /> */}
       {/* <Dialog /> */}
       {/* <Theme /> */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+      {/* <StopWatch /> */}
     </>
   );
 }
