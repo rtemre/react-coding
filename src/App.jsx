@@ -1,5 +1,6 @@
 import "./App.css";
 import Dialog from "./Dialog";
+import DigitalClock from "./DigitalClock";
 import StopWatch from "./StopWatch";
 import Theme from "./Theme";
 import TicTacToe from "./TicTacToe";
@@ -14,6 +15,7 @@ function App() {
       {/* <Theme /> */}
       {/* <TicTacToe /> */}
       {/* <StopWatch /> */}
+      <DigitalClock />
     </>
   );
 }
