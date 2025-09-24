@@ -4,6 +4,7 @@ import DigitalClock from "./DigitalClock";
 import StopWatch from "./StopWatch";
 import Theme from "./Theme";
 import TicTacToe from "./TicTacToe";
+import Timer from "./Timer";
 import TodoApp from "./TodoApp";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <Theme /> */}
       {/* <TicTacToe /> */}
       {/* <StopWatch /> */}
-      <DigitalClock />
+      {/* <DigitalClock /> */}
+      {/* <Timer /> */}
     </>
   );
 }
